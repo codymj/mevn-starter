@@ -3,6 +3,8 @@ Minimal MEVN boilerplate.
 
 The server is setup to run locally on port 8081.
 
+Live version:  <a href="https://mevn-starter.herokuapp.com/">https://mevn-starter.herokuapp.com/</a>
+
 Clone repo:
 ```
 $ git clone https://github.com/codymj/mevn-starter
