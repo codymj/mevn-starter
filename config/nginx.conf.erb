@@ -33,6 +33,6 @@ http {
         client_max_body_size <%= ENV['NGINX_CLIENT_MAX_BODY_SIZE'] || 1 %>M;
 
         #Path to app
-        root /server/public;
+        root ../server/public;
     }
 }
