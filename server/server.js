@@ -1,10 +1,12 @@
 const bodyParser = require('body-parser');
+const compression = require('compression');
 const cors = require('cors');
 const express = require('express');
 const mongoose = require('mongoose');
 
 const app = express();
 app.use(bodyParser.json());
+app.use(compression());
 app.use(cors());
 
 app.use(express.static(__dirname + '/public/'));
