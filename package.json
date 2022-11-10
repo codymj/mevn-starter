@@ -23,6 +23,6 @@
         "dot-prop": "^6.0.1",
         "glob-parent": ">=6.0.1",
         "mquery": ">=3.2.3",
-        "nodemon": "^1.19.4"
+        "nodemon": "^2.0.20"
     }
 }
